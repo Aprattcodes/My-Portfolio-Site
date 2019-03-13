@@ -37,10 +37,12 @@
 .navbar {
     background-color: rgb(144, 238, 191);
     height: 80px;
-    text-align: center;
-    font-size: 25px;
     grid-column: 1/4;
     grid-row: 2/3;
+}
+.icon {
+    padding-top: 10px;
+    padding-right: 20px;
 }
 .subtext {
     font-family: 'Quicksand',sans-serif;
@@ -58,7 +60,16 @@
     width: 100%;
     min-width: 400px;
 }
-
+.container {
+    grid-column: 1/4;
+    grid-row: 6/1fr;
+    grid-auto-flow: row dense;
+}
+.imgcontent {
+    max-width: 300px;
+    min-width: 100px;
+    height: 100%;
+}
 .footer {
     background-color: gray;
     width: max-content;
